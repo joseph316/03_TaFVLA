@@ -118,7 +118,3 @@ def main():
     fig.tight_layout();fig.savefig(out/'comparison.png',dpi=160);plt.close(fig)
     print('CONTROLLED COMPARISON CHECKS PASS',flush=True)
 if __name__=='__main__':main()
-
-
-
-

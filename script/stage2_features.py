@@ -45,4 +45,3 @@ def main():
                 print(f'Feature equivalence PASS {ep.sequence_id}',flush=True)
     print('ALL FEATURE CACHES READY',flush=True)
 if __name__=='__main__':main()
-
