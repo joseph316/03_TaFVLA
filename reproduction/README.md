@@ -63,7 +63,7 @@ Offline 0.2/0.3-second label fusion selects Loading/Holding/Unloading N=1/7/1, U
 
 The single-seed development pilot worsens from 0.6785 at 1000 to 0.7418 at 5000 updates. This does not establish a universal convergence or overfitting conclusion. Few sequences, overlapping anchors, and distribution shifts limit generalization.
 
-`results/` contains selected JSON/CSV summaries, not raw data/checkpoints. `result_manifest.json` records SHA256 hashes of these publication copies. Detailed local paths in selected text are replaced by `$TAF_PROJECT` if present. Original local artifacts remain unchanged. No full training rerun was performed for publication.
+`results/` contains selected JSON/CSV summaries, not raw data/checkpoints. `result_manifest.json` records SHA256 hashes of the committed Git blobs (LF line endings; Windows working copies may use CRLF). Detailed local paths in selected text are replaced by `$TAF_PROJECT` if present. Original local artifacts remain unchanged. No full training rerun was performed for publication.
 
 ## Publication checks (2026-11-26)
 
