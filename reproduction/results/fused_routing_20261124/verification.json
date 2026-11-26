@@ -1,0 +1,7 @@
+{
+  "routing_matches_selected_model": "PASS",
+  "predictions_finite": "PASS",
+  "original_probes_unchanged": "PASS",
+  "protocol_unchanged": "PASS",
+  "model_training": false
+}

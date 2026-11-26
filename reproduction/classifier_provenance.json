@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/principle-of-ml-class/dataset_visualization",
+  "local_copy": "dataset_visualization-main",
+  "git_revision": null,
+  "classifier_yaml_sha256": "0f507bc2e32bcfe1652ed4cfd7452280c5e1b7ad261b33307c8f84be449f7b99",
+  "note": "Separate teammate-provided ZIP dependency; not redistributed here. Exact remote revision not verified."
+}

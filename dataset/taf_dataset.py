@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import bisect
-import fcntl
 import hashlib
 import json
 import multiprocessing as mp
@@ -18,6 +17,7 @@ from pathlib import Path
 from typing import Any, TextIO
 
 import numpy as np
+from filelock import FileLock
 import torch
 from torch.utils.data import Dataset
 from tqdm.auto import tqdm
@@ -220,6 +220,10 @@ class _PersistentTimestampCache:
                 os.fsync(temporary.fileno())
             os.replace(temporary_path, cache_path)
             temporary_path = None
+            # Windows cannot open/fsync directories; the file was already
+            # flushed and atomically replaced above.
+            if not hasattr(os, "O_DIRECTORY"):
+                return
             try:
                 directory_fd = os.open(self.cache_dir, os.O_RDONLY | os.O_DIRECTORY)
                 try:
@@ -258,8 +262,7 @@ class _PersistentTimestampCache:
             return cached, True
 
         try:
-            with lock_path.open("a+b") as lock_file:
-                fcntl.flock(lock_file.fileno(), fcntl.LOCK_EX)
+            with FileLock(str(lock_path)):
                 # Lock 대기 중 다른 프로세스가 캐시를 완성했을 수 있다.
                 identity = self._identity(canonical)
                 cache_path, _ = self._paths(identity)

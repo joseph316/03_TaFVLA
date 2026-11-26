@@ -1,0 +1,17 @@
+phase_02,phase_03,fused,conflict
+Loading,Loading,Loading,False
+Loading,Unloading,Transition / Unknown,True
+Loading,Holding,Loading,False
+Loading,Transition / Unknown,Loading,False
+Unloading,Loading,Transition / Unknown,True
+Unloading,Unloading,Unloading,False
+Unloading,Holding,Unloading,False
+Unloading,Transition / Unknown,Unloading,False
+Holding,Loading,Loading,False
+Holding,Unloading,Unloading,False
+Holding,Holding,Holding,False
+Holding,Transition / Unknown,Transition / Unknown,False
+Transition / Unknown,Loading,Loading,False
+Transition / Unknown,Unloading,Unloading,False
+Transition / Unknown,Holding,Transition / Unknown,False
+Transition / Unknown,Transition / Unknown,Transition / Unknown,False

@@ -1,0 +1,9 @@
+$root=$PSScriptRoot
+$env:PYTHONIOENCODING='utf-8'
+$env:PYTHONUTF8='1'
+$env:HF_HOME=Join-Path $root 'cache/huggingface'
+$env:XDG_CACHE_HOME=Join-Path $root 'cache'
+$env:MPLCONFIGDIR=Join-Path $root 'cache/matplotlib'
+$env:TAF_RGB_CACHE=Join-Path $root 'cache/rgb224'
+$env:PATH=(Join-Path $root 'tools/ffmpeg/bin')+';'+$env:PATH
+$env:WANDB_MODE='disabled'

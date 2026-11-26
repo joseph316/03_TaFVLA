@@ -1,0 +1,21 @@
+{
+  "policy": {
+    "Loading": 1,
+    "Holding": 7,
+    "Unloading": 1,
+    "Transition / Unknown": 3
+  },
+  "source": "fused phase development 5-percent rule; Unknown falls back to global N=3",
+  "status": "exploratory; obj4 was already inspected in earlier analyses",
+  "label_source": "offline force-derived oracle; not deployable online",
+  "baselines": [
+    "fixed1",
+    "fixed3",
+    "fixed5",
+    "fixed7",
+    "fixed10",
+    "train_mean"
+  ],
+  "selection_changes_after_results": false,
+  "fusion_labels_sha256": "a96202eee65204899ddda65a2d1d5e2eb7f774585af886f5260f2059e0ead64e"
+}

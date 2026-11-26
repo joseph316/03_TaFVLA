@@ -1,0 +1,56 @@
+{
+  "scope": "development only; exploratory single-seed convergence pilot; no heldout evaluation",
+  "results": [
+    {
+      "step": 1000,
+      "alpha": 100.0,
+      "count": 5414,
+      "episodes": 10,
+      "wrench_standardized_rmse": 0.6785306930541992,
+      "wrench_raw_rmse_axes": [
+        0.38804104924201965,
+        0.3911725878715515,
+        1.876274824142456,
+        0.015552651137113571,
+        0.02322632074356079,
+        0.02130929008126259
+      ],
+      "pressure_raw_rmse": 56.02578353881836,
+      "pressure_raw_mae": 13.982662200927734
+    },
+    {
+      "step": 3000,
+      "alpha": 100.0,
+      "count": 5414,
+      "episodes": 10,
+      "wrench_standardized_rmse": 0.7154891490936279,
+      "wrench_raw_rmse_axes": [
+        0.4079255163669586,
+        0.398697167634964,
+        2.0898897647857666,
+        0.01996891014277935,
+        0.026326388120651245,
+        0.019894486293196678
+      ],
+      "pressure_raw_rmse": 57.317710876464844,
+      "pressure_raw_mae": 13.746018409729004
+    },
+    {
+      "step": 5000,
+      "alpha": 100.0,
+      "count": 5414,
+      "episodes": 10,
+      "wrench_standardized_rmse": 0.7418161630630493,
+      "wrench_raw_rmse_axes": [
+        0.3966856300830841,
+        0.4037100672721863,
+        2.034715414047241,
+        0.020045066252350807,
+        0.02754499763250351,
+        0.02274106815457344
+      ],
+      "pressure_raw_rmse": 58.23152542114258,
+      "pressure_raw_mae": 14.345433235168457
+    }
+  ]
+}

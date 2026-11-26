@@ -13,3 +13,17 @@ wheels/
 wandb/
 outputs/
 .hydra/
+
+# Local experiment data and credentials
+.env
+.env.*
+!.env.example
+cache/
+data/
+runs/
+*.pt
+*.pth
+*.npy
+*.npz
+*.mp4
+*.parquet

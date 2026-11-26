@@ -1,3 +1,11 @@
+## Course-project temporal-context experiments
+
+This fork adds Sungwoo Kang's Windows compatibility fixes, cached-feature training, N=1/3/5/7/10 comparison, offline phase analysis, routing, and failure diagnostics.
+
+**Start here: [experiment guide and limitations](reproduction/README.md).** Small recorded results are in `reproduction/results/`. The original implementation and documentation are retained below. This is a reduced-scale adapter study, not a full TaF-VLA robot/VLA reproduction.
+
+---
+
 # TaF-Adapter pre-training
 
 This repository implements only the tactile-force alignment adapter from

@@ -1,0 +1,2480 @@
+{
+  "frozen_global_N": 3,
+  "frozen_state_N": {
+    "No Contact": null,
+    "Loading": 1,
+    "Holding": 3,
+    "Unloading": 1
+  },
+  "validation_aggregate": {
+    "1": {
+      "ALL": {
+        "count": 5414,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.7753514846165975,
+        "wrench_standardized_rmse_sd": 0.04215596067433721,
+        "pressure_raw_rmse_mean": 58.53149541219076,
+        "pressure_raw_rmse_sd": 0.26994711667184085
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 941,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.8027830918629965,
+        "wrench_standardized_rmse_sd": 0.044124870164858006,
+        "pressure_raw_rmse_mean": 49.53740310668945,
+        "pressure_raw_rmse_sd": 1.0866708795997604
+      },
+      "Holding": {
+        "count": 2001,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.7829421957333883,
+        "wrench_standardized_rmse_sd": 0.0376785327530189,
+        "pressure_raw_rmse_mean": 65.30018615722656,
+        "pressure_raw_rmse_sd": 0.4132920797375606
+      },
+      "Unloading": {
+        "count": 848,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.7767982681592306,
+        "wrench_standardized_rmse_sd": 0.058933910498305826,
+        "pressure_raw_rmse_mean": 57.700782775878906,
+        "pressure_raw_rmse_sd": 0.9800652798464284
+      },
+      "Transition / Unknown": {
+        "count": 1624,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.7482354839642843,
+        "wrench_standardized_rmse_sd": 0.04424047660488287,
+        "pressure_raw_rmse_mean": 54.825923919677734,
+        "pressure_raw_rmse_sd": 0.468421831840358
+      }
+    },
+    "3": {
+      "ALL": {
+        "count": 5414,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.724947194258372,
+        "wrench_standardized_rmse_sd": 0.041496167196685384,
+        "pressure_raw_rmse_mean": 57.31785329182943,
+        "pressure_raw_rmse_sd": 1.1497685001362463
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 941,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.800800621509552,
+        "wrench_standardized_rmse_sd": 0.04681456745092158,
+        "pressure_raw_rmse_mean": 49.65398406982422,
+        "pressure_raw_rmse_sd": 0.9647305717876616
+      },
+      "Holding": {
+        "count": 2001,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.6845693389574686,
+        "wrench_standardized_rmse_sd": 0.08084789924888693,
+        "pressure_raw_rmse_mean": 62.63094838460287,
+        "pressure_raw_rmse_sd": 1.2856149401933694
+      },
+      "Unloading": {
+        "count": 848,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.7431949774424235,
+        "wrench_standardized_rmse_sd": 0.03303827819572896,
+        "pressure_raw_rmse_mean": 57.89987564086914,
+        "pressure_raw_rmse_sd": 1.034169336804739
+      },
+      "Transition / Unknown": {
+        "count": 1624,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.714926024278005,
+        "wrench_standardized_rmse_sd": 0.03324728789258313,
+        "pressure_raw_rmse_mean": 54.2212028503418,
+        "pressure_raw_rmse_sd": 1.2345532496564715
+      }
+    },
+    "5": {
+      "ALL": {
+        "count": 5414,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.7717326879501343,
+        "wrench_standardized_rmse_sd": 0.036845784614255264,
+        "pressure_raw_rmse_mean": 59.52289962768555,
+        "pressure_raw_rmse_sd": 2.9491316474521088
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 941,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.901204248269399,
+        "wrench_standardized_rmse_sd": 0.08382035054619598,
+        "pressure_raw_rmse_mean": 51.39389419555664,
+        "pressure_raw_rmse_sd": 2.1821610317433695
+      },
+      "Holding": {
+        "count": 2001,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.6850635210673014,
+        "wrench_standardized_rmse_sd": 0.025560864389086776,
+        "pressure_raw_rmse_mean": 65.97634760538737,
+        "pressure_raw_rmse_sd": 5.199345400715122
+      },
+      "Unloading": {
+        "count": 848,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.8079530795415243,
+        "wrench_standardized_rmse_sd": 0.07969454557922911,
+        "pressure_raw_rmse_mean": 58.19332377115885,
+        "pressure_raw_rmse_sd": 1.3567999926720042
+      },
+      "Transition / Unknown": {
+        "count": 1624,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.7690295577049255,
+        "wrench_standardized_rmse_sd": 0.05351773421057501,
+        "pressure_raw_rmse_mean": 56.03303146362305,
+        "pressure_raw_rmse_sd": 2.5012248217443838
+      }
+    },
+    "7": {
+      "ALL": {
+        "count": 5414,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.7547590732574463,
+        "wrench_standardized_rmse_sd": 0.02715607556806725,
+        "pressure_raw_rmse_mean": 57.35585912068685,
+        "pressure_raw_rmse_sd": 1.4240434742894001
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 941,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.907102644443512,
+        "wrench_standardized_rmse_sd": 0.045013105868616024,
+        "pressure_raw_rmse_mean": 50.14541371663412,
+        "pressure_raw_rmse_sd": 0.15340474971103935
+      },
+      "Holding": {
+        "count": 2001,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.658587634563446,
+        "wrench_standardized_rmse_sd": 0.013447231267986975,
+        "pressure_raw_rmse_mean": 62.7245724995931,
+        "pressure_raw_rmse_sd": 2.5721588616678477
+      },
+      "Unloading": {
+        "count": 848,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.8123862346013387,
+        "wrench_standardized_rmse_sd": 0.05282709890312127,
+        "pressure_raw_rmse_mean": 57.41900380452474,
+        "pressure_raw_rmse_sd": 0.8566092683204118
+      },
+      "Transition / Unknown": {
+        "count": 1624,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.7361537019411722,
+        "wrench_standardized_rmse_sd": 0.040584919212003634,
+        "pressure_raw_rmse_mean": 54.20867919921875,
+        "pressure_raw_rmse_sd": 1.1876312780089477
+      }
+    },
+    "10": {
+      "ALL": {
+        "count": 5414,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.8075705170631409,
+        "wrench_standardized_rmse_sd": 0.05463095401547485,
+        "pressure_raw_rmse_mean": 58.240684509277344,
+        "pressure_raw_rmse_sd": 1.0489871478974437
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 941,
+        "episodes": 10,
+        "wrench_standardized_rmse_mean": 0.8812487522761027,
+        "wrench_standardized_rmse_sd": 0.07105150755620016,
+        "pressure_raw_rmse_mean": 51.107643127441406,
+        "pressure_raw_rmse_sd": 0.7659678824451491
+      },
+      "Holding": {
+        "count": 2001,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.790576716264089,
+        "wrench_standardized_rmse_sd": 0.13077669133580272,
+        "pressure_raw_rmse_mean": 63.21369425455729,
+        "pressure_raw_rmse_sd": 1.367932714507722
+      },
+      "Unloading": {
+        "count": 848,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.7931168874104818,
+        "wrench_standardized_rmse_sd": 0.011614241425800613,
+        "pressure_raw_rmse_mean": 59.02478281656901,
+        "pressure_raw_rmse_sd": 1.2618360831057298
+      },
+      "Transition / Unknown": {
+        "count": 1624,
+        "episodes": 9,
+        "wrench_standardized_rmse_mean": 0.7844143112500509,
+        "wrench_standardized_rmse_sd": 0.03668693898245372,
+        "pressure_raw_rmse_mean": 55.23023986816406,
+        "pressure_raw_rmse_sd": 1.478342229787743
+      }
+    }
+  },
+  "test": {
+    "train_mean": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.657604694366455,
+          "wrench_raw_rmse_axes": [
+            0.67213374376297,
+            2.2764923572540283,
+            4.363383769989014,
+            0.09904307126998901,
+            0.10420521348714828,
+            0.037096016108989716
+          ],
+          "pressure_raw_rmse": 47.97808837890625,
+          "pressure_raw_mae": 13.652849197387695
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4567031860351562,
+          "wrench_raw_rmse_axes": [
+            0.8170239925384521,
+            2.963332414627075,
+            6.128290176391602,
+            0.13609617948532104,
+            0.13883276283740997,
+            0.02845464088022709
+          ],
+          "pressure_raw_rmse": 55.23881149291992,
+          "pressure_raw_mae": 15.471394538879395
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.0239720344543457,
+          "wrench_raw_rmse_axes": [
+            0.5687652826309204,
+            1.6597504615783691,
+            2.6172540187835693,
+            0.05939502641558647,
+            0.08180706202983856,
+            0.04677886888384819
+          ],
+          "pressure_raw_rmse": 35.628456115722656,
+          "pressure_raw_mae": 11.370826721191406
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4825870990753174,
+          "wrench_raw_rmse_axes": [
+            1.0400460958480835,
+            2.902205228805542,
+            6.422343730926514,
+            0.13934475183486938,
+            0.13220494985580444,
+            0.0452875941991806
+          ],
+          "pressure_raw_rmse": 69.60050201416016,
+          "pressure_raw_mae": 19.35946273803711
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.2965402603149414,
+          "wrench_raw_rmse_axes": [
+            0.5167736411094666,
+            2.028923749923706,
+            3.460879325866699,
+            0.08358348906040192,
+            0.08848586678504944,
+            0.03188854455947876
+          ],
+          "pressure_raw_rmse": 43.28302001953125,
+          "pressure_raw_mae": 12.616135597229004
+        }
+      }
+    },
+    "ViT_mean1": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.940819263458252,
+          "wrench_raw_rmse_axes": [
+            0.7591552734375,
+            2.2440176010131836,
+            6.943539142608643,
+            0.10957274585962296,
+            0.10814902186393738,
+            0.06687825918197632
+          ],
+          "pressure_raw_rmse": 57.67512893676758,
+          "pressure_raw_mae": 16.94313621520996
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.584392786026001,
+          "wrench_raw_rmse_axes": [
+            0.8515762686729431,
+            2.931528329849243,
+            8.404296875,
+            0.14904658496379852,
+            0.13633568584918976,
+            0.040607351809740067
+          ],
+          "pressure_raw_rmse": 63.72087478637695,
+          "pressure_raw_mae": 18.182706832885742
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.580447196960449,
+          "wrench_raw_rmse_axes": [
+            0.7397878170013428,
+            1.6341041326522827,
+            5.769743919372559,
+            0.06649512052536011,
+            0.09008430689573288,
+            0.0946134552359581
+          ],
+          "pressure_raw_rmse": 50.07894515991211,
+          "pressure_raw_mae": 15.519938468933105
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.658419370651245,
+          "wrench_raw_rmse_axes": [
+            0.9552690386772156,
+            3.0214014053344727,
+            7.522722244262695,
+            0.14877724647521973,
+            0.13826696574687958,
+            0.049411363899707794
+          ],
+          "pressure_raw_rmse": 75.73514556884766,
+          "pressure_raw_mae": 22.578750610351562
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.592857599258423,
+          "wrench_raw_rmse_axes": [
+            0.6658346652984619,
+            1.9327019453048706,
+            6.670889377593994,
+            0.09541452676057816,
+            0.093754343688488,
+            0.06200186163187027
+          ],
+          "pressure_raw_rmse": 53.17565155029297,
+          "pressure_raw_mae": 15.719701766967773
+        }
+      }
+    },
+    "N1_seed42": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.9199345111846924,
+          "wrench_raw_rmse_axes": [
+            0.746052622795105,
+            2.3179585933685303,
+            5.767632007598877,
+            0.1050710454583168,
+            0.11449453234672546,
+            0.059654831886291504
+          ],
+          "pressure_raw_rmse": 59.770328521728516,
+          "pressure_raw_mae": 17.65253257751465
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.470594882965088,
+          "wrench_raw_rmse_axes": [
+            0.7190650701522827,
+            2.9153897762298584,
+            7.3867363929748535,
+            0.13959160447120667,
+            0.1354837268590927,
+            0.03767593577504158
+          ],
+          "pressure_raw_rmse": 61.19687271118164,
+          "pressure_raw_mae": 16.98660659790039
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.5650157928466797,
+          "wrench_raw_rmse_axes": [
+            0.8080455660820007,
+            1.8422781229019165,
+            3.8482131958007812,
+            0.06427573412656784,
+            0.1021389365196228,
+            0.07977508753538132
+          ],
+          "pressure_raw_rmse": 52.96310043334961,
+          "pressure_raw_mae": 16.477460861206055
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.490994930267334,
+          "wrench_raw_rmse_axes": [
+            0.8929241895675659,
+            2.8311920166015625,
+            6.857857704162598,
+            0.14218425750732422,
+            0.14187759160995483,
+            0.038803067058324814
+          ],
+          "pressure_raw_rmse": 77.98958587646484,
+          "pressure_raw_mae": 23.46812629699707
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.6713528633117676,
+          "wrench_raw_rmse_axes": [
+            0.6791673302650452,
+            2.1032943725585938,
+            5.519607067108154,
+            0.09360812604427338,
+            0.1025606244802475,
+            0.05932218208909035
+          ],
+          "pressure_raw_rmse": 57.044525146484375,
+          "pressure_raw_mae": 17.04401969909668
+        }
+      }
+    },
+    "N1_seed43": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.8015663623809814,
+          "wrench_raw_rmse_axes": [
+            0.7160432934761047,
+            2.2430717945098877,
+            5.843655586242676,
+            0.10447374731302261,
+            0.1039845272898674,
+            0.05781139060854912
+          ],
+          "pressure_raw_rmse": 55.86738967895508,
+          "pressure_raw_mae": 15.522565841674805
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4062998294830322,
+          "wrench_raw_rmse_axes": [
+            0.7640261650085449,
+            2.8059897422790527,
+            7.574538230895996,
+            0.13939383625984192,
+            0.13436508178710938,
+            0.03433576971292496
+          ],
+          "pressure_raw_rmse": 60.05244827270508,
+          "pressure_raw_mae": 16.556367874145508
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.375246286392212,
+          "wrench_raw_rmse_axes": [
+            0.5338255763053894,
+            1.733701229095459,
+            4.363285064697266,
+            0.0677342563867569,
+            0.08363321423530579,
+            0.07871641218662262
+          ],
+          "pressure_raw_rmse": 45.19566345214844,
+          "pressure_raw_mae": 13.537246704101562
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.476977586746216,
+          "wrench_raw_rmse_axes": [
+            1.1061103343963623,
+            2.8946707248687744,
+            6.550383567810059,
+            0.14037387073040009,
+            0.13186229765415192,
+            0.0397135429084301
+          ],
+          "pressure_raw_rmse": 72.72872924804688,
+          "pressure_raw_mae": 20.9012393951416
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.519418954849243,
+          "wrench_raw_rmse_axes": [
+            0.6471267342567444,
+            2.010793924331665,
+            5.486505031585693,
+            0.09168516844511032,
+            0.0900094285607338,
+            0.056686099618673325
+          ],
+          "pressure_raw_rmse": 54.05631637573242,
+          "pressure_raw_mae": 14.741559982299805
+        }
+      }
+    },
+    "N1_seed44": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.7122461795806885,
+          "wrench_raw_rmse_axes": [
+            0.6579631567001343,
+            2.1769697666168213,
+            6.0408244132995605,
+            0.105927012860775,
+            0.10001248866319656,
+            0.05089632794260979
+          ],
+          "pressure_raw_rmse": 55.33440399169922,
+          "pressure_raw_mae": 15.461984634399414
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4435274600982666,
+          "wrench_raw_rmse_axes": [
+            0.7265903353691101,
+            2.8512749671936035,
+            7.94644832611084,
+            0.14391928911209106,
+            0.1321069747209549,
+            0.03401566669344902
+          ],
+          "pressure_raw_rmse": 60.0746955871582,
+          "pressure_raw_mae": 16.26811981201172
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.093797206878662,
+          "wrench_raw_rmse_axes": [
+            0.46741652488708496,
+            1.461724877357483,
+            4.377143383026123,
+            0.06312765181064606,
+            0.07742367684841156,
+            0.06738405674695969
+          ],
+          "pressure_raw_rmse": 46.26448440551758,
+          "pressure_raw_mae": 13.816190719604492
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4334487915039062,
+          "wrench_raw_rmse_axes": [
+            1.0301833152770996,
+            2.826230525970459,
+            7.057415008544922,
+            0.14065136015415192,
+            0.1311587244272232,
+            0.03773961588740349
+          ],
+          "pressure_raw_rmse": 70.96510314941406,
+          "pressure_raw_mae": 20.098188400268555
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.4274330139160156,
+          "wrench_raw_rmse_axes": [
+            0.5859055519104004,
+            1.9616891145706177,
+            5.568222522735596,
+            0.09400247782468796,
+            0.08451501280069351,
+            0.0497356653213501
+          ],
+          "pressure_raw_rmse": 52.968441009521484,
+          "pressure_raw_mae": 14.790082931518555
+        }
+      }
+    },
+    "ViT_mean3": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.9256763458251953,
+          "wrench_raw_rmse_axes": [
+            0.7872545123100281,
+            2.247870445251465,
+            6.572082042694092,
+            0.10817365348339081,
+            0.10790123045444489,
+            0.0665811076760292
+          ],
+          "pressure_raw_rmse": 55.469482421875,
+          "pressure_raw_mae": 16.768680572509766
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.572957754135132,
+          "wrench_raw_rmse_axes": [
+            0.8823994994163513,
+            2.920759677886963,
+            8.317283630371094,
+            0.14768846333026886,
+            0.13628143072128296,
+            0.040573205798864365
+          ],
+          "pressure_raw_rmse": 63.69957733154297,
+          "pressure_raw_mae": 18.354469299316406
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.531848192214966,
+          "wrench_raw_rmse_axes": [
+            0.7700461745262146,
+            1.644217848777771,
+            4.929161548614502,
+            0.0614616833627224,
+            0.08813204616308212,
+            0.09382284432649612
+          ],
+          "pressure_raw_rmse": 44.555850982666016,
+          "pressure_raw_mae": 14.967510223388672
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.6518521308898926,
+          "wrench_raw_rmse_axes": [
+            0.9569534063339233,
+            3.0057265758514404,
+            7.441038131713867,
+            0.1494516283273697,
+            0.13858884572982788,
+            0.04894609376788139
+          ],
+          "pressure_raw_rmse": 74.7400131225586,
+          "pressure_raw_mae": 22.508563995361328
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.5890886783599854,
+          "wrench_raw_rmse_axes": [
+            0.7012981176376343,
+            1.9510042667388916,
+            6.251843452453613,
+            0.09426582604646683,
+            0.09400095790624619,
+            0.06202808395028114
+          ],
+          "pressure_raw_rmse": 50.90825271606445,
+          "pressure_raw_mae": 15.570793151855469
+        }
+      }
+    },
+    "N3_seed42": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.7636449337005615,
+          "wrench_raw_rmse_axes": [
+            0.7110732793807983,
+            2.2370829582214355,
+            5.489517688751221,
+            0.09991660714149475,
+            0.10406000912189484,
+            0.056834626942873
+          ],
+          "pressure_raw_rmse": 59.04430389404297,
+          "pressure_raw_mae": 15.854875564575195
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.361358165740967,
+          "wrench_raw_rmse_axes": [
+            0.7418258786201477,
+            2.823579788208008,
+            7.14106559753418,
+            0.1328616887331009,
+            0.1315714418888092,
+            0.0378531813621521
+          ],
+          "pressure_raw_rmse": 62.38143539428711,
+          "pressure_raw_mae": 17.10886001586914
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.342778444290161,
+          "wrench_raw_rmse_axes": [
+            0.5734352469444275,
+            1.7315335273742676,
+            3.979067325592041,
+            0.06425900757312775,
+            0.086916483938694,
+            0.07464080303907394
+          ],
+          "pressure_raw_rmse": 52.69024658203125,
+          "pressure_raw_mae": 14.437986373901367
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.373382091522217,
+          "wrench_raw_rmse_axes": [
+            1.0845540761947632,
+            2.715444564819336,
+            6.869966506958008,
+            0.1356905847787857,
+            0.13387389481067657,
+            0.03749311342835426
+          ],
+          "pressure_raw_rmse": 73.05661010742188,
+          "pressure_raw_mae": 20.603511810302734
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.504610538482666,
+          "wrench_raw_rmse_axes": [
+            0.6375763416290283,
+            2.0507466793060303,
+            4.951567649841309,
+            0.08759935200214386,
+            0.08953570574522018,
+            0.05683949589729309
+          ],
+          "pressure_raw_rmse": 56.66403579711914,
+          "pressure_raw_mae": 14.849937438964844
+        }
+      }
+    },
+    "N3_seed43": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.7276611328125,
+          "wrench_raw_rmse_axes": [
+            0.751488447189331,
+            2.1924562454223633,
+            5.645027160644531,
+            0.10147467255592346,
+            0.10409951955080032,
+            0.05109606310725212
+          ],
+          "pressure_raw_rmse": 55.10542678833008,
+          "pressure_raw_mae": 15.697248458862305
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.427985429763794,
+          "wrench_raw_rmse_axes": [
+            0.8974072933197021,
+            2.858675479888916,
+            7.289614200592041,
+            0.13724161684513092,
+            0.1324707567691803,
+            0.03721325844526291
+          ],
+          "pressure_raw_rmse": 61.30149841308594,
+          "pressure_raw_mae": 17.14638328552246
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.1519827842712402,
+          "wrench_raw_rmse_axes": [
+            0.5229718685150146,
+            1.5369923114776611,
+            4.112645626068115,
+            0.061972156167030334,
+            0.08434539288282394,
+            0.0656578466296196
+          ],
+          "pressure_raw_rmse": 44.78804397583008,
+          "pressure_raw_mae": 13.841796875
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.489316701889038,
+          "wrench_raw_rmse_axes": [
+            1.1313140392303467,
+            2.8808069229125977,
+            6.552459239959717,
+            0.13880977034568787,
+            0.1356692761182785,
+            0.03923862800002098
+          ],
+          "pressure_raw_rmse": 72.8954849243164,
+          "pressure_raw_mae": 21.326297760009766
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.4275476932525635,
+          "wrench_raw_rmse_axes": [
+            0.6574754118919373,
+            1.9447263479232788,
+            5.287215709686279,
+            0.08831774443387985,
+            0.08966659009456635,
+            0.05013171210885048
+          ],
+          "pressure_raw_rmse": 51.83553695678711,
+          "pressure_raw_mae": 14.612565994262695
+        }
+      }
+    },
+    "N3_seed44": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.772900104522705,
+          "wrench_raw_rmse_axes": [
+            0.7483083009719849,
+            2.2866997718811035,
+            5.380557537078857,
+            0.10275314003229141,
+            0.102785624563694,
+            0.05249776318669319
+          ],
+          "pressure_raw_rmse": 54.113277435302734,
+          "pressure_raw_mae": 15.219335556030273
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.499432325363159,
+          "wrench_raw_rmse_axes": [
+            0.835752010345459,
+            3.008999824523926,
+            7.1651411056518555,
+            0.1400059312582016,
+            0.12947587668895721,
+            0.04006194323301315
+          ],
+          "pressure_raw_rmse": 62.959556579589844,
+          "pressure_raw_mae": 17.126571655273438
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.1415083408355713,
+          "wrench_raw_rmse_axes": [
+            0.6548467874526978,
+            1.5896810293197632,
+            3.397550582885742,
+            0.05690555274486542,
+            0.08014585077762604,
+            0.06642366945743561
+          ],
+          "pressure_raw_rmse": 41.02973175048828,
+          "pressure_raw_mae": 12.837761878967285
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.5739657878875732,
+          "wrench_raw_rmse_axes": [
+            1.0309633016586304,
+            2.989713430404663,
+            6.820072650909424,
+            0.1462726593017578,
+            0.134645476937294,
+            0.04183446615934372
+          ],
+          "pressure_raw_rmse": 73.1998519897461,
+          "pressure_raw_mae": 20.764989852905273
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.470306634902954,
+          "wrench_raw_rmse_axes": [
+            0.6643546223640442,
+            2.0226359367370605,
+            4.917303562164307,
+            0.08842919766902924,
+            0.09054848551750183,
+            0.05131679028272629
+          ],
+          "pressure_raw_rmse": 50.199363708496094,
+          "pressure_raw_mae": 14.238761901855469
+        }
+      }
+    },
+    "ViT_mean5": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.9394936561584473,
+          "wrench_raw_rmse_axes": [
+            0.8124698400497437,
+            2.2568650245666504,
+            6.237155914306641,
+            0.10724854469299316,
+            0.10962724685668945,
+            0.06806670129299164
+          ],
+          "pressure_raw_rmse": 54.53977584838867,
+          "pressure_raw_mae": 16.610795974731445
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.5721240043640137,
+          "wrench_raw_rmse_axes": [
+            0.8969805836677551,
+            2.920907497406006,
+            8.197023391723633,
+            0.14651072025299072,
+            0.1367446482181549,
+            0.04177471250295639
+          ],
+          "pressure_raw_rmse": 63.87385177612305,
+          "pressure_raw_mae": 18.472126007080078
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.5659868717193604,
+          "wrench_raw_rmse_axes": [
+            0.831450879573822,
+            1.6909927129745483,
+            4.165163040161133,
+            0.0592961311340332,
+            0.0905214473605156,
+            0.09536487609148026
+          ],
+          "pressure_raw_rmse": 42.33534622192383,
+          "pressure_raw_mae": 14.674487113952637
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.6595280170440674,
+          "wrench_raw_rmse_axes": [
+            0.9350765943527222,
+            2.993109941482544,
+            7.371746063232422,
+            0.15013130009174347,
+            0.14014726877212524,
+            0.05058145150542259
+          ],
+          "pressure_raw_rmse": 74.47818756103516,
+          "pressure_raw_mae": 22.452478408813477
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.603593111038208,
+          "wrench_raw_rmse_axes": [
+            0.7273657917976379,
+            1.9579013586044312,
+            5.863398551940918,
+            0.09314799308776855,
+            0.09629666060209274,
+            0.06365113705396652
+          ],
+          "pressure_raw_rmse": 49.68413162231445,
+          "pressure_raw_mae": 15.342584609985352
+        }
+      }
+    },
+    "N5_seed42": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.8363888263702393,
+          "wrench_raw_rmse_axes": [
+            0.8047409653663635,
+            2.3584768772125244,
+            5.227560043334961,
+            0.09776504337787628,
+            0.10209108889102936,
+            0.06117658689618111
+          ],
+          "pressure_raw_rmse": 59.312705993652344,
+          "pressure_raw_mae": 18.37709617614746
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.286107301712036,
+          "wrench_raw_rmse_axes": [
+            0.9075876474380493,
+            2.869720935821533,
+            5.847263813018799,
+            0.12417057901620865,
+            0.12046152353286743,
+            0.04428958520293236
+          ],
+          "pressure_raw_rmse": 61.73065185546875,
+          "pressure_raw_mae": 18.1080379486084
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.492438316345215,
+          "wrench_raw_rmse_axes": [
+            0.7393563985824585,
+            1.926201581954956,
+            4.275256156921387,
+            0.059547699987888336,
+            0.08702920377254486,
+            0.07937633991241455
+          ],
+          "pressure_raw_rmse": 50.10810470581055,
+          "pressure_raw_mae": 16.90300178527832
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.441378593444824,
+          "wrench_raw_rmse_axes": [
+            1.0450788736343384,
+            2.8629262447357178,
+            6.422884941101074,
+            0.13726480305194855,
+            0.12974119186401367,
+            0.04633856192231178
+          ],
+          "pressure_raw_rmse": 78.06255340576172,
+          "pressure_raw_mae": 24.2215518951416
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.6226601600646973,
+          "wrench_raw_rmse_axes": [
+            0.7160837054252625,
+            2.1766715049743652,
+            5.059182643890381,
+            0.08865746855735779,
+            0.09250952303409576,
+            0.05970889329910278
+          ],
+          "pressure_raw_rmse": 57.07098388671875,
+          "pressure_raw_mae": 17.75160789489746
+        }
+      }
+    },
+    "N5_seed43": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.8688924312591553,
+          "wrench_raw_rmse_axes": [
+            0.7126564979553223,
+            2.2909598350524902,
+            5.711796760559082,
+            0.10361188650131226,
+            0.10872334986925125,
+            0.061662741005420685
+          ],
+          "pressure_raw_rmse": 57.0847282409668,
+          "pressure_raw_mae": 15.933677673339844
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4553771018981934,
+          "wrench_raw_rmse_axes": [
+            0.7474629878997803,
+            2.881235361099243,
+            7.323920726776123,
+            0.13987061381340027,
+            0.13708634674549103,
+            0.033945538103580475
+          ],
+          "pressure_raw_rmse": 60.809505462646484,
+          "pressure_raw_mae": 16.953689575195312
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.5004537105560303,
+          "wrench_raw_rmse_axes": [
+            0.6606643199920654,
+            1.7912726402282715,
+            4.328044414520264,
+            0.0653642788529396,
+            0.0916837528347969,
+            0.08361433446407318
+          ],
+          "pressure_raw_rmse": 47.436920166015625,
+          "pressure_raw_mae": 14.209540367126465
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4634299278259277,
+          "wrench_raw_rmse_axes": [
+            0.980059027671814,
+            2.81037974357605,
+            6.638086795806885,
+            0.1409803032875061,
+            0.1383572220802307,
+            0.04067248851060867
+          ],
+          "pressure_raw_rmse": 72.29047393798828,
+          "pressure_raw_mae": 20.750091552734375
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.598381757736206,
+          "wrench_raw_rmse_axes": [
+            0.6384263038635254,
+            2.087967872619629,
+            5.308019161224365,
+            0.08987762778997421,
+            0.09391774237155914,
+            0.0616443045437336
+          ],
+          "pressure_raw_rmse": 55.62331008911133,
+          "pressure_raw_mae": 15.16745662689209
+        }
+      }
+    },
+    "N5_seed44": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.718475341796875,
+          "wrench_raw_rmse_axes": [
+            0.7121523022651672,
+            2.1625914573669434,
+            5.78594446182251,
+            0.09968701750040054,
+            0.10441026091575623,
+            0.05366533622145653
+          ],
+          "pressure_raw_rmse": 54.90248489379883,
+          "pressure_raw_mae": 16.402301788330078
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.406176805496216,
+          "wrench_raw_rmse_axes": [
+            0.7932702898979187,
+            2.8628389835357666,
+            7.520087718963623,
+            0.13537731766700745,
+            0.12865056097507477,
+            0.04222319647669792
+          ],
+          "pressure_raw_rmse": 60.604183197021484,
+          "pressure_raw_mae": 17.342382431030273
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.1811583042144775,
+          "wrench_raw_rmse_axes": [
+            0.6189454793930054,
+            1.4917171001434326,
+            4.228837013244629,
+            0.05499713867902756,
+            0.08699998259544373,
+            0.07016932964324951
+          ],
+          "pressure_raw_rmse": 42.97421646118164,
+          "pressure_raw_mae": 14.219623565673828
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.5143418312072754,
+          "wrench_raw_rmse_axes": [
+            0.9397091865539551,
+            2.8252663612365723,
+            7.350595951080322,
+            0.14450398087501526,
+            0.13872550427913666,
+            0.043966591358184814
+          ],
+          "pressure_raw_rmse": 73.81908416748047,
+          "pressure_raw_mae": 22.112430572509766
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.394733428955078,
+          "wrench_raw_rmse_axes": [
+            0.6513908505439758,
+            1.9078155755996704,
+            5.168683052062988,
+            0.08504004776477814,
+            0.09024622291326523,
+            0.050190363079309464
+          ],
+          "pressure_raw_rmse": 52.16269302368164,
+          "pressure_raw_mae": 15.67727279663086
+        }
+      }
+    },
+    "ViT_mean7": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.933236598968506,
+          "wrench_raw_rmse_axes": [
+            0.8360159397125244,
+            2.2676217555999756,
+            5.985626697540283,
+            0.1063244491815567,
+            0.10950016975402832,
+            0.06755045801401138
+          ],
+          "pressure_raw_rmse": 54.15182113647461,
+          "pressure_raw_mae": 16.525447845458984
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.5704829692840576,
+          "wrench_raw_rmse_axes": [
+            0.917212724685669,
+            2.928420066833496,
+            8.05805492401123,
+            0.14526942372322083,
+            0.1370016634464264,
+            0.041894931346178055
+          ],
+          "pressure_raw_rmse": 63.85368728637695,
+          "pressure_raw_mae": 18.53035545349121
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.55653977394104,
+          "wrench_raw_rmse_axes": [
+            0.8617309927940369,
+            1.7318590879440308,
+            3.547907590866089,
+            0.05753178149461746,
+            0.08916382491588593,
+            0.09467484056949615
+          ],
+          "pressure_raw_rmse": 41.185516357421875,
+          "pressure_raw_mae": 14.396563529968262
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.6629202365875244,
+          "wrench_raw_rmse_axes": [
+            0.9448542594909668,
+            2.9842071533203125,
+            7.365515232086182,
+            0.15060800313949585,
+            0.14088673889636993,
+            0.050539422780275345
+          ],
+          "pressure_raw_rmse": 74.78256225585938,
+          "pressure_raw_mae": 22.614892959594727
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.5926434993743896,
+          "wrench_raw_rmse_axes": [
+            0.75335693359375,
+            1.9654308557510376,
+            5.574488162994385,
+            0.09200302511453629,
+            0.09620783478021622,
+            0.06295275688171387
+          ],
+          "pressure_raw_rmse": 49.146217346191406,
+          "pressure_raw_mae": 15.233880996704102
+        }
+      }
+    },
+    "N7_seed42": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.829244613647461,
+          "wrench_raw_rmse_axes": [
+            0.6774044036865234,
+            2.246974229812622,
+            5.961409568786621,
+            0.10614193975925446,
+            0.10867924243211746,
+            0.05611185356974602
+          ],
+          "pressure_raw_rmse": 53.94590759277344,
+          "pressure_raw_mae": 15.437103271484375
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4742605686187744,
+          "wrench_raw_rmse_axes": [
+            0.7726109623908997,
+            2.794851779937744,
+            8.053975105285645,
+            0.14596335589885712,
+            0.13802051544189453,
+            0.035157591104507446
+          ],
+          "pressure_raw_rmse": 61.845149993896484,
+          "pressure_raw_mae": 16.754884719848633
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.357597827911377,
+          "wrench_raw_rmse_axes": [
+            0.49947890639305115,
+            1.7724266052246094,
+            4.2960405349731445,
+            0.06473216414451599,
+            0.08763688057661057,
+            0.07357437163591385
+          ],
+          "pressure_raw_rmse": 41.58711624145508,
+          "pressure_raw_mae": 13.271842002868652
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4959800243377686,
+          "wrench_raw_rmse_axes": [
+            1.0238401889801025,
+            2.725250482559204,
+            7.19595193862915,
+            0.1463700383901596,
+            0.14332111179828644,
+            0.038864824920892715
+          ],
+          "pressure_raw_rmse": 72.6642837524414,
+          "pressure_raw_mae": 21.507905960083008
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.5503180027008057,
+          "wrench_raw_rmse_axes": [
+            0.5990088582038879,
+            2.0692098140716553,
+            5.2974324226379395,
+            0.09034933149814606,
+            0.09332708269357681,
+            0.05646734684705734
+          ],
+          "pressure_raw_rmse": 50.34108352661133,
+          "pressure_raw_mae": 14.453920364379883
+        }
+      }
+    },
+    "N7_seed43": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.852174758911133,
+          "wrench_raw_rmse_axes": [
+            0.8075259327888489,
+            2.235513210296631,
+            5.198770999908447,
+            0.10030503571033478,
+            0.11227929592132568,
+            0.06201813742518425
+          ],
+          "pressure_raw_rmse": 57.46803665161133,
+          "pressure_raw_mae": 16.21120262145996
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4061291217803955,
+          "wrench_raw_rmse_axes": [
+            0.7634415030479431,
+            2.7991459369659424,
+            7.199850559234619,
+            0.13512949645519257,
+            0.13811860978603363,
+            0.03778380900621414
+          ],
+          "pressure_raw_rmse": 60.682552337646484,
+          "pressure_raw_mae": 16.702608108520508
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.4435973167419434,
+          "wrench_raw_rmse_axes": [
+            0.8624597787857056,
+            1.7748948335647583,
+            2.1285831928253174,
+            0.04916314035654068,
+            0.0925554409623146,
+            0.08310049027204514
+          ],
+          "pressure_raw_rmse": 46.51224899291992,
+          "pressure_raw_mae": 13.970898628234863
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.5076746940612793,
+          "wrench_raw_rmse_axes": [
+            0.8666794896125793,
+            2.6465392112731934,
+            7.526368618011475,
+            0.14886474609375,
+            0.14991477131843567,
+            0.040387511253356934
+          ],
+          "pressure_raw_rmse": 74.5543212890625,
+          "pressure_raw_mae": 21.564922332763672
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.5978198051452637,
+          "wrench_raw_rmse_axes": [
+            0.7796466946601868,
+            2.0647566318511963,
+            4.560043811798096,
+            0.08669761568307877,
+            0.09738875180482864,
+            0.061906877905130386
+          ],
+          "pressure_raw_rmse": 56.1793327331543,
+          "pressure_raw_mae": 15.793469429016113
+        }
+      }
+    },
+    "N7_seed44": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.661555290222168,
+          "wrench_raw_rmse_axes": [
+            0.7146177291870117,
+            2.1916472911834717,
+            5.446824073791504,
+            0.09834002703428268,
+            0.09941957890987396,
+            0.04862538352608681
+          ],
+          "pressure_raw_rmse": 58.178688049316406,
+          "pressure_raw_mae": 16.419713973999023
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.316331386566162,
+          "wrench_raw_rmse_axes": [
+            0.769489049911499,
+            2.8404476642608643,
+            6.640316486358643,
+            0.12867985665798187,
+            0.1260913759469986,
+            0.04122263938188553
+          ],
+          "pressure_raw_rmse": 60.131351470947266,
+          "pressure_raw_mae": 16.832605361938477
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.091287851333618,
+          "wrench_raw_rmse_axes": [
+            0.6459222435951233,
+            1.5024160146713257,
+            3.901177167892456,
+            0.05540267750620842,
+            0.08333747088909149,
+            0.061988264322280884
+          ],
+          "pressure_raw_rmse": 47.38332748413086,
+          "pressure_raw_mae": 14.30250072479248
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4640190601348877,
+          "wrench_raw_rmse_axes": [
+            0.9842805862426758,
+            2.887920618057251,
+            6.809598445892334,
+            0.1410703957080841,
+            0.12941516935825348,
+            0.04431888088583946
+          ],
+          "pressure_raw_rmse": 73.94854736328125,
+          "pressure_raw_mae": 21.680564880371094
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.3672168254852295,
+          "wrench_raw_rmse_axes": [
+            0.6385285258293152,
+            1.9649792909622192,
+            5.185147285461426,
+            0.08723143488168716,
+            0.08456812798976898,
+            0.0444650761783123
+          ],
+          "pressure_raw_rmse": 57.83042907714844,
+          "pressure_raw_mae": 15.994599342346191
+        }
+      }
+    },
+    "ViT_mean10": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.923375129699707,
+          "wrench_raw_rmse_axes": [
+            0.8652191162109375,
+            2.2735300064086914,
+            5.827455043792725,
+            0.10580704361200333,
+            0.1095319539308548,
+            0.06575868278741837
+          ],
+          "pressure_raw_rmse": 53.64543533325195,
+          "pressure_raw_mae": 16.39529037475586
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.5655357837677,
+          "wrench_raw_rmse_axes": [
+            0.9344868659973145,
+            2.925126314163208,
+            8.09692096710205,
+            0.14451052248477936,
+            0.13664481043815613,
+            0.04161405935883522
+          ],
+          "pressure_raw_rmse": 63.84187698364258,
+          "pressure_raw_mae": 18.619359970092773
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.53843092918396,
+          "wrench_raw_rmse_axes": [
+            0.9271321296691895,
+            1.7659687995910645,
+            2.9174654483795166,
+            0.056387994438409805,
+            0.08893099427223206,
+            0.09162655472755432
+          ],
+          "pressure_raw_rmse": 39.5236701965332,
+          "pressure_raw_mae": 14.015363693237305
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.6559553146362305,
+          "wrench_raw_rmse_axes": [
+            0.9392935633659363,
+            2.969695806503296,
+            7.509048938751221,
+            0.15106704831123352,
+            0.14069470763206482,
+            0.04952693358063698
+          ],
+          "pressure_raw_rmse": 74.75650024414062,
+          "pressure_raw_mae": 22.631309509277344
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.5828042030334473,
+          "wrench_raw_rmse_axes": [
+            0.7779056429862976,
+            1.9723138809204102,
+            5.318603038787842,
+            0.09136369824409485,
+            0.09667994827032089,
+            0.06140081211924553
+          ],
+          "pressure_raw_rmse": 48.65137481689453,
+          "pressure_raw_mae": 15.10530948638916
+        }
+      }
+    },
+    "N10_seed42": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.7454206943511963,
+          "wrench_raw_rmse_axes": [
+            0.7765864729881287,
+            2.2633094787597656,
+            5.349391937255859,
+            0.09848405420780182,
+            0.10022221505641937,
+            0.055419206619262695
+          ],
+          "pressure_raw_rmse": 56.26213073730469,
+          "pressure_raw_mae": 16.284196853637695
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.3632140159606934,
+          "wrench_raw_rmse_axes": [
+            0.868697464466095,
+            2.8691089153289795,
+            6.852251052856445,
+            0.1312994509935379,
+            0.12825380265712738,
+            0.03723879158496857
+          ],
+          "pressure_raw_rmse": 60.73287582397461,
+          "pressure_raw_mae": 16.936437606811523
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.258023738861084,
+          "wrench_raw_rmse_axes": [
+            0.6137543320655823,
+            1.7307686805725098,
+            3.6654882431030273,
+            0.05709487944841385,
+            0.07867081463336945,
+            0.07327928394079208
+          ],
+          "pressure_raw_rmse": 46.374637603759766,
+          "pressure_raw_mae": 14.565494537353516
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4918034076690674,
+          "wrench_raw_rmse_axes": [
+            1.124224066734314,
+            2.9206581115722656,
+            6.614743709564209,
+            0.1400013267993927,
+            0.13163380324840546,
+            0.03962142392992973
+          ],
+          "pressure_raw_rmse": 69.72975158691406,
+          "pressure_raw_mae": 20.29197883605957
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.457918643951416,
+          "wrench_raw_rmse_axes": [
+            0.6984943747520447,
+            2.0151822566986084,
+            4.999332904815674,
+            0.08583526313304901,
+            0.08670400083065033,
+            0.054444439709186554
+          ],
+          "pressure_raw_rmse": 55.12434387207031,
+          "pressure_raw_mae": 15.875192642211914
+        }
+      }
+    },
+    "N10_seed43": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.7700488567352295,
+          "wrench_raw_rmse_axes": [
+            0.7625151872634888,
+            2.2190372943878174,
+            5.443835258483887,
+            0.09787168353796005,
+            0.10860016942024231,
+            0.0548752024769783
+          ],
+          "pressure_raw_rmse": 58.20349884033203,
+          "pressure_raw_mae": 17.00996208190918
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.3873116970062256,
+          "wrench_raw_rmse_axes": [
+            0.7373242378234863,
+            2.815368413925171,
+            6.982082843780518,
+            0.1319902539253235,
+            0.13956771790981293,
+            0.0329514741897583
+          ],
+          "pressure_raw_rmse": 61.923885345458984,
+          "pressure_raw_mae": 17.214466094970703
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.3242430686950684,
+          "wrench_raw_rmse_axes": [
+            0.7890790104866028,
+            1.6507319211959839,
+            3.8840138912200928,
+            0.05368424579501152,
+            0.08903560042381287,
+            0.07533103972673416
+          ],
+          "pressure_raw_rmse": 47.50065612792969,
+          "pressure_raw_mae": 15.002789497375488
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4654765129089355,
+          "wrench_raw_rmse_axes": [
+            0.9889156222343445,
+            2.860856533050537,
+            6.58273983001709,
+            0.13912855088710785,
+            0.1377021223306656,
+            0.0370839424431324
+          ],
+          "pressure_raw_rmse": 74.28832244873047,
+          "pressure_raw_mae": 21.910371780395508
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.4821691513061523,
+          "wrench_raw_rmse_axes": [
+            0.6884233355522156,
+            1.9955183267593384,
+            5.072906494140625,
+            0.08536604046821594,
+            0.0936577096581459,
+            0.05338142439723015
+          ],
+          "pressure_raw_rmse": 56.93252182006836,
+          "pressure_raw_mae": 16.70675277709961
+        }
+      }
+    },
+    "N10_seed44": {
+      "metrics": {
+        "ALL": {
+          "count": 972,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.9785189628601074,
+          "wrench_raw_rmse_axes": [
+            0.9268507957458496,
+            2.3807215690612793,
+            5.695066452026367,
+            0.10643269866704941,
+            0.11035913228988647,
+            0.0636967197060585
+          ],
+          "pressure_raw_rmse": 60.68746566772461,
+          "pressure_raw_mae": 17.496355056762695
+        },
+        "No Contact": {
+          "count": 0,
+          "episodes": 0
+        },
+        "Loading": {
+          "count": 184,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.4795737266540527,
+          "wrench_raw_rmse_axes": [
+            0.9340614676475525,
+            3.0025837421417236,
+            6.513139247894287,
+            0.1332966387271881,
+            0.12835589051246643,
+            0.047642819583415985
+          ],
+          "pressure_raw_rmse": 62.43600845336914,
+          "pressure_raw_mae": 17.959266662597656
+        },
+        "Holding": {
+          "count": 230,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.664600133895874,
+          "wrench_raw_rmse_axes": [
+            0.9422444105148315,
+            1.8836791515350342,
+            4.819101333618164,
+            0.07937087118625641,
+            0.09346280246973038,
+            0.0846477821469307
+          ],
+          "pressure_raw_rmse": 58.48029327392578,
+          "pressure_raw_mae": 17.55364227294922
+        },
+        "Unloading": {
+          "count": 114,
+          "episodes": 2,
+          "wrench_standardized_rmse": 3.503195285797119,
+          "wrench_raw_rmse_axes": [
+            0.8873347640037537,
+            2.8441998958587646,
+            6.728808403015137,
+            0.13930025696754456,
+            0.1432168185710907,
+            0.04335943982005119
+          ],
+          "pressure_raw_rmse": 73.62535095214844,
+          "pressure_raw_mae": 21.6886043548584
+        },
+        "Transition / Unknown": {
+          "count": 444,
+          "episodes": 2,
+          "wrench_standardized_rmse": 2.752284526824951,
+          "wrench_raw_rmse_axes": [
+            0.9257400035858154,
+            2.18099308013916,
+            5.456035614013672,
+            0.09586449712514877,
+            0.10021718591451645,
+            0.06121300533413887
+          ],
+          "pressure_raw_rmse": 57.30470275878906,
+          "pressure_raw_mae": 16.198450088500977
+        }
+      }
+    }
+  },
+  "test_aggregate": {
+    "1": {
+      "ALL": {
+        "count": 972,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.811249017715454,
+        "wrench_standardized_rmse_sd": 0.10418217761142409,
+        "pressure_raw_rmse_mean": 56.99070739746094,
+        "pressure_raw_rmse_sd": 2.421928700759132
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 184,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.440140724182129,
+        "wrench_standardized_rmse_sd": 0.03228104646211678,
+        "pressure_raw_rmse_mean": 60.441338857014976,
+        "pressure_raw_rmse_sd": 0.6544060584560992
+      },
+      "Holding": {
+        "count": 230,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.344686428705851,
+        "wrench_standardized_rmse_sd": 0.2370910534304963,
+        "pressure_raw_rmse_mean": 48.141082763671875,
+        "pressure_raw_rmse_sd": 4.21004576728133
+      },
+      "Unloading": {
+        "count": 114,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.4671404361724854,
+        "wrench_standardized_rmse_sd": 0.030007776828725654,
+        "pressure_raw_rmse_mean": 73.89447275797527,
+        "pressure_raw_rmse_sd": 3.654457257085354
+      },
+      "Transition / Unknown": {
+        "count": 444,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.5394016106923423,
+        "wrench_standardized_rmse_sd": 0.123181586015197,
+        "pressure_raw_rmse_mean": 54.68976084391276,
+        "pressure_raw_rmse_sd": 2.110581529721449
+      }
+    },
+    "3": {
+      "ALL": {
+        "count": 972,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.7547353903452554,
+        "wrench_standardized_rmse_sd": 0.02389929104490846,
+        "pressure_raw_rmse_mean": 56.087669372558594,
+        "pressure_raw_rmse_sd": 2.6081326375211438
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 184,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.42959197362264,
+        "wrench_standardized_rmse_sd": 0.0690510979363939,
+        "pressure_raw_rmse_mean": 62.21416346232096,
+        "pressure_raw_rmse_sd": 0.8415902478613563
+      },
+      "Holding": {
+        "count": 230,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.2120898564656577,
+        "wrench_standardized_rmse_sd": 0.1133007446224163,
+        "pressure_raw_rmse_mean": 46.16934076944987,
+        "pressure_raw_rmse_sd": 5.951712959997871
+      },
+      "Unloading": {
+        "count": 114,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.478888193766276,
+        "wrench_standardized_rmse_sd": 0.1006976670442134,
+        "pressure_raw_rmse_mean": 73.05064900716145,
+        "pressure_raw_rmse_sd": 0.152271069697451
+      },
+      "Transition / Unknown": {
+        "count": 444,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.4674882888793945,
+        "wrench_standardized_rmse_sd": 0.0386086497364395,
+        "pressure_raw_rmse_mean": 52.899645487467446,
+        "pressure_raw_rmse_sd": 3.3611369396612614
+      }
+    },
+    "5": {
+      "ALL": {
+        "count": 972,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.8079188664754233,
+        "wrench_standardized_rmse_sd": 0.07914688346918805,
+        "pressure_raw_rmse_mean": 57.09997304280599,
+        "pressure_raw_rmse_sd": 2.205150072078004
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 184,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.382553736368815,
+        "wrench_standardized_rmse_sd": 0.08707240297599385,
+        "pressure_raw_rmse_mean": 61.04811350504557,
+        "pressure_raw_rmse_sd": 0.5999443791212145
+      },
+      "Holding": {
+        "count": 230,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.3913501103719077,
+        "wrench_standardized_rmse_sd": 0.1820755562064295,
+        "pressure_raw_rmse_mean": 46.8397471110026,
+        "pressure_raw_rmse_sd": 3.6042408514053013
+      },
+      "Unloading": {
+        "count": 114,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.473050117492676,
+        "wrench_standardized_rmse_sd": 0.037420843832189965,
+        "pressure_raw_rmse_mean": 74.72403717041016,
+        "pressure_raw_rmse_sd": 2.990556854284251
+      },
+      "Transition / Unknown": {
+        "count": 444,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.5385917822519937,
+        "wrench_standardized_rmse_sd": 0.12517499576545302,
+        "pressure_raw_rmse_mean": 54.95232899983724,
+        "pressure_raw_rmse_sd": 2.52200149002057
+      }
+    },
+    "7": {
+      "ALL": {
+        "count": 972,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.780991554260254,
+        "wrench_standardized_rmse_sd": 0.1040683129775092,
+        "pressure_raw_rmse_mean": 56.530877431233726,
+        "pressure_raw_rmse_sd": 2.2666733667595547
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 184,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.398907025655111,
+        "wrench_standardized_rmse_sd": 0.0792119034002083,
+        "pressure_raw_rmse_mean": 60.88635126749674,
+        "pressure_raw_rmse_sd": 0.8748867624851884
+      },
+      "Holding": {
+        "count": 230,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.297494331995646,
+        "wrench_standardized_rmse_sd": 0.18368400180757216,
+        "pressure_raw_rmse_mean": 45.16089757283529,
+        "pressure_raw_rmse_sd": 3.1254806330953087
+      },
+      "Unloading": {
+        "count": 114,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.489224592844645,
+        "wrench_standardized_rmse_sd": 0.02259824073622747,
+        "pressure_raw_rmse_mean": 73.72238413492839,
+        "pressure_raw_rmse_sd": 0.9651024955171474
+      },
+      "Transition / Unknown": {
+        "count": 444,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.505118211110433,
+        "wrench_standardized_rmse_sd": 0.12176493512863783,
+        "pressure_raw_rmse_mean": 54.78361511230469,
+        "pressure_raw_rmse_sd": 3.934919942222468
+      }
+    },
+    "10": {
+      "ALL": {
+        "count": 972,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.8313295046488443,
+        "wrench_standardized_rmse_sd": 0.1280632228705706,
+        "pressure_raw_rmse_mean": 58.38436508178711,
+        "pressure_raw_rmse_sd": 2.21820462527068
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 184,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.4100331465403237,
+        "wrench_standardized_rmse_sd": 0.06141737351807309,
+        "pressure_raw_rmse_mean": 61.69758987426758,
+        "pressure_raw_rmse_sd": 0.8738263091360822
+      },
+      "Holding": {
+        "count": 230,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.4156223138173423,
+        "wrench_standardized_rmse_sd": 0.21814838087689042,
+        "pressure_raw_rmse_mean": 50.785195668538414,
+        "pressure_raw_rmse_sd": 6.6878901603212855
+      },
+      "Unloading": {
+        "count": 114,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 3.4868250687917075,
+        "wrench_standardized_rmse_sd": 0.01934591301879984,
+        "pressure_raw_rmse_mean": 72.54780832926433,
+        "pressure_raw_rmse_sd": 2.462918117528347
+      },
+      "Transition / Unknown": {
+        "count": 444,
+        "episodes": 2,
+        "wrench_standardized_rmse_mean": 2.56412410736084,
+        "wrench_standardized_rmse_sd": 0.16340220122881843,
+        "pressure_raw_rmse_mean": 56.45385615030924,
+        "pressure_raw_rmse_sd": 1.1663326439218844
+      }
+    }
+  },
+  "oracle_state_routed_test": {
+    "42": {
+      "ALL": {
+        "count": 972,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.8060109615325928,
+        "wrench_raw_rmse_axes": [
+          0.6744528412818909,
+          2.2758681774139404,
+          5.548957347869873,
+          0.1026744544506073,
+          0.10623132437467575,
+          0.05691540241241455
+        ],
+        "pressure_raw_rmse": 59.54752731323242,
+        "pressure_raw_mae": 16.167705535888672
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 184,
+        "episodes": 2,
+        "wrench_standardized_rmse": 3.470594882965088,
+        "wrench_raw_rmse_axes": [
+          0.7190650701522827,
+          2.9153897762298584,
+          7.3867363929748535,
+          0.13959160447120667,
+          0.1354837268590927,
+          0.03767593577504158
+        ],
+        "pressure_raw_rmse": 61.19687271118164,
+        "pressure_raw_mae": 16.98660659790039
+      },
+      "Holding": {
+        "count": 230,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.342778444290161,
+        "wrench_raw_rmse_axes": [
+          0.5734352469444275,
+          1.7315335273742676,
+          3.979067325592041,
+          0.06425900757312775,
+          0.086916483938694,
+          0.07464080303907394
+        ],
+        "pressure_raw_rmse": 52.69024658203125,
+        "pressure_raw_mae": 14.437986373901367
+      },
+      "Unloading": {
+        "count": 114,
+        "episodes": 2,
+        "wrench_standardized_rmse": 3.490994930267334,
+        "wrench_raw_rmse_axes": [
+          0.8929241895675659,
+          2.8311920166015625,
+          6.857857704162598,
+          0.14218425750732422,
+          0.14187759160995483,
+          0.038803067058324814
+        ],
+        "pressure_raw_rmse": 77.98958587646484,
+        "pressure_raw_mae": 23.46812629699707
+      },
+      "Transition / Unknown": {
+        "count": 444,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.504610538482666,
+        "wrench_raw_rmse_axes": [
+          0.6375763416290283,
+          2.0507466793060303,
+          4.951567649841309,
+          0.08759935200214386,
+          0.08953570574522018,
+          0.05683949589729309
+        ],
+        "pressure_raw_rmse": 56.66403579711914,
+        "pressure_raw_mae": 14.849937438964844
+      }
+    },
+    "43": {
+      "ALL": {
+        "count": 972,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.7206614017486572,
+        "wrench_raw_rmse_axes": [
+          0.7184504270553589,
+          2.181687116622925,
+          5.7153191566467285,
+          0.1022791638970375,
+          0.10398532450199127,
+          0.05075659602880478
+        ],
+        "pressure_raw_rmse": 54.818485260009766,
+        "pressure_raw_mae": 15.535704612731934
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 184,
+        "episodes": 2,
+        "wrench_standardized_rmse": 3.4062998294830322,
+        "wrench_raw_rmse_axes": [
+          0.7640261650085449,
+          2.8059897422790527,
+          7.574538230895996,
+          0.13939383625984192,
+          0.13436508178710938,
+          0.03433576971292496
+        ],
+        "pressure_raw_rmse": 60.05244827270508,
+        "pressure_raw_mae": 16.556367874145508
+      },
+      "Holding": {
+        "count": 230,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.1519827842712402,
+        "wrench_raw_rmse_axes": [
+          0.5229718685150146,
+          1.5369923114776611,
+          4.112645626068115,
+          0.061972156167030334,
+          0.08434539288282394,
+          0.0656578466296196
+        ],
+        "pressure_raw_rmse": 44.78804397583008,
+        "pressure_raw_mae": 13.841796875
+      },
+      "Unloading": {
+        "count": 114,
+        "episodes": 2,
+        "wrench_standardized_rmse": 3.476977586746216,
+        "wrench_raw_rmse_axes": [
+          1.1061103343963623,
+          2.8946707248687744,
+          6.550383567810059,
+          0.14037387073040009,
+          0.13186229765415192,
+          0.0397135429084301
+        ],
+        "pressure_raw_rmse": 72.72872924804688,
+        "pressure_raw_mae": 20.9012393951416
+      },
+      "Transition / Unknown": {
+        "count": 444,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.4275476932525635,
+        "wrench_raw_rmse_axes": [
+          0.6574754118919373,
+          1.9447263479232788,
+          5.287215709686279,
+          0.08831774443387985,
+          0.08966659009456635,
+          0.05013171210885048
+        ],
+        "pressure_raw_rmse": 51.83553695678711,
+        "pressure_raw_mae": 14.612565994262695
+      }
+    },
+    "44": {
+      "ALL": {
+        "count": 972,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.7386152744293213,
+        "wrench_raw_rmse_axes": [
+          0.7262862324714661,
+          2.2231757640838623,
+          5.618873596191406,
+          0.10285608470439911,
+          0.10289058834314346,
+          0.0513128936290741
+        ],
+        "pressure_raw_rmse": 53.134464263916016,
+        "pressure_raw_mae": 14.978625297546387
+      },
+      "No Contact": {
+        "count": 0,
+        "episodes": 0
+      },
+      "Loading": {
+        "count": 184,
+        "episodes": 2,
+        "wrench_standardized_rmse": 3.4435274600982666,
+        "wrench_raw_rmse_axes": [
+          0.7265903353691101,
+          2.8512749671936035,
+          7.94644832611084,
+          0.14391928911209106,
+          0.1321069747209549,
+          0.03401566669344902
+        ],
+        "pressure_raw_rmse": 60.0746955871582,
+        "pressure_raw_mae": 16.26811981201172
+      },
+      "Holding": {
+        "count": 230,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.1415083408355713,
+        "wrench_raw_rmse_axes": [
+          0.6548467874526978,
+          1.5896810293197632,
+          3.397550582885742,
+          0.05690555274486542,
+          0.08014585077762604,
+          0.06642366945743561
+        ],
+        "pressure_raw_rmse": 41.02973175048828,
+        "pressure_raw_mae": 12.837761878967285
+      },
+      "Unloading": {
+        "count": 114,
+        "episodes": 2,
+        "wrench_standardized_rmse": 3.4334487915039062,
+        "wrench_raw_rmse_axes": [
+          1.0301833152770996,
+          2.826230525970459,
+          7.057415008544922,
+          0.14065136015415192,
+          0.1311587244272232,
+          0.03773961588740349
+        ],
+        "pressure_raw_rmse": 70.96510314941406,
+        "pressure_raw_mae": 20.098188400268555
+      },
+      "Transition / Unknown": {
+        "count": 444,
+        "episodes": 2,
+        "wrench_standardized_rmse": 2.470306634902954,
+        "wrench_raw_rmse_axes": [
+          0.6643546223640442,
+          2.0226359367370605,
+          4.917303562164307,
+          0.08842919766902924,
+          0.09054848551750183,
+          0.05131679028272629
+        ],
+        "pressure_raw_rmse": 50.199363708496094,
+        "pressure_raw_mae": 14.238761901855469
+      }
+    }
+  },
+  "test_anchors": 972,
+  "test_episodes": 2,
+  "checks": {
+    "train_validation_disjoint": true,
+    "identical_endpoints_all_N": true,
+    "optimizer_updates_1000_all_runs": true,
+    "probe_train_only": true,
+    "selection_frozen_before_test": true,
+    "freeze_hashes_unchanged": true
+  },
+  "limits": [
+    "Rule-based offline labels, not human ground truth",
+    "State routing uses held-out force-derived oracle labels; not an online controller",
+    "Single held-out sequence with few episodes",
+    "N changes both tactile and force alignment input context",
+    "No human or team agreement claimed"
+  ]
+}

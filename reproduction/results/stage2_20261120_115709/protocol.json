@@ -1,0 +1,34 @@
+{
+  "test": "gs_mini_obj4",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "windows": [
+    1,
+    3,
+    5,
+    7,
+    10
+  ],
+  "steps": 1000,
+  "test_policy": "freeze all probe coefficients, alphas and N selections before reading test outcomes",
+  "precision": "fp32",
+  "selection": "smallest N within 5 percent of minimum validation standardized wrench RMSE; minimum 30 anchors and 2 episodes for state selection, otherwise global fallback",
+  "support": 10,
+  "validation": "gs_mini_obj2",
+  "normalization": "original_cell",
+  "probe_alphas": [
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "train": [
+    "gs_mini_obj1",
+    "gs_mini_obj3"
+  ],
+  "label_mode": "fixed upstream centered pseudo-labels; W_before=2s W_after=2s, no threshold tuning on val/test",
+  "status": "proposal_not_team_agreed"
+}

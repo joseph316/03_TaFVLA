@@ -1,0 +1,46 @@
+{
+  "checkpoints": [
+    {
+      "step": 1000,
+      "optimizer_steps_verified": true
+    },
+    {
+      "step": 3000,
+      "optimizer_steps_verified": true
+    },
+    {
+      "step": 5000,
+      "optimizer_steps_verified": true
+    }
+  ],
+  "training_validation_samples": [
+    {
+      "step": 1000,
+      "samples": 5408
+    },
+    {
+      "step": 2000,
+      "samples": 5408
+    },
+    {
+      "step": 3000,
+      "samples": 5408
+    },
+    {
+      "step": 4000,
+      "samples": 5408
+    },
+    {
+      "step": 5000,
+      "samples": 5408
+    }
+  ],
+  "probe_validation_samples": [
+    5414,
+    5414,
+    5414
+  ],
+  "new_vs_original_1000_rmse_delta": 0.0,
+  "test_evaluated_in_pilot": false,
+  "single_seed": 42
+}
